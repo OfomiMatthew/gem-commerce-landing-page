@@ -6,7 +6,8 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+   
+    font-family:'Inter Tight', sans-serif;
     line-height: 1.6;
     color: #333;
     background-color: #f8f9fa;
@@ -177,11 +178,11 @@ body {
     color: white;
     border: none;
     padding: 18px 40px;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
     border-radius: 6px;
     cursor: pointer;
-   width: 460px;
+   width: 42%;
     margin-bottom: 20px;
     display: inline-block;
     justify-content: center;
@@ -240,7 +241,12 @@ body {
     font-size: 1.1rem;
     color: #666;
     margin-bottom: 40px;
-    line-height: 1.6;
+    line-height: 1.5;
+    
+}
+
+.key-points{
+    margin-bottom: -20px;
 }
 
 .key-points h3 {
@@ -280,6 +286,7 @@ body {
     font-weight: 600;
     border-radius: 6px;
     cursor: pointer;
+    width: 100%;
     
     margin-top: 30px;
 }
@@ -291,8 +298,8 @@ body {
 
 .nutrition-image img {
     width: 100%;
-    width: 570px;
-    height: 570px;
+  
+    height: 610px;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
@@ -335,13 +342,15 @@ hr {
     width: 100%;
     height: auto;
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    
 }
 
 /* Prebiotics Section */
 .prebiotics-section {
     background-color: white;
-    padding: 100px 0;
+    padding: 80px 0;
+    margin-top: -85px;
+    
 }
 
 .prebiotics-content {
@@ -369,87 +378,14 @@ hr {
     width: 100%;
     height: auto;
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .hero-title {
-        font-size: 2rem;
-    }
-    
-    .features-grid {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        gap: 30px;
-        max-width: 400px;
-    }
-    
-    .central-image {
-        grid-column: 1;
-        grid-row: 1;
-        width: 250px;
-        height: 250px;
-        margin: 0 auto;
-    }
-    
-    .feature-card {
-        grid-column: 1;
-        max-width: 100%;
-        text-align: center;
-    }
-    
-    .feature-top-left,
-    .feature-top-right,
-    .feature-bottom-left,
-    .feature-bottom-right {
-        justify-self: center;
-        align-self: center;
-    }
-    
-    .nutrition-content,
-    .gastrointestinal-content,
-    .prebiotics-content {
-        grid-template-columns: 1fr;
-        gap: 40px;
-        text-align: center;
-    }
-    
-    .nutrition-text h2,
-    .gastrointestinal-text h2,
-    .prebiotics-text h2 {
-        font-size: 1.8rem;
-    }
-    
-    .payment-info {
-        flex-direction: column;
-        gap: 15px;
-    }
-}
 
-@media (max-width: 480px) {
-    .container {
-        padding: 0 15px;
-    }
-    
-    .hero-section,
-    .nutrition-section,
-    .gastrointestinal-section,
-    .prebiotics-section {
-        padding: 60px 0;
-    }
-    
-    .hero-title {
-        font-size: 1.8rem;
-    }
-    
-    .central-image {
-        width: 200px;
-        height: 200px;
-    }
-    
-    .feature-card {
-        padding: 20px;
-    }
-}
+
+
+
+
+
+
 
